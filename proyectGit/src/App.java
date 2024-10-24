@@ -5,4 +5,7 @@ public class App {
         System.out.println("Hello, World!3");
         System.out.println("Hello, World!4");
     }
+    public void metodo1() {
+        System.out.println("Hola he añadido un metodo nuevo");
+    }
 }
