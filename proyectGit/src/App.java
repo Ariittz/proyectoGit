@@ -1,9 +1,18 @@
 public class App {
+
+    public static void sopln(String text) {
+        System.out.println(text);
+    }
+
+    public static void sop(String text) {
+        System.out.print(text);
+    }
+
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        System.out.println("Hello, World!2");
-        System.out.println("Hello, World!3");
-        System.out.println("Hello, World!4");
-        System.out.println("Hello, World!5");
+        sopln("Hello, World!");
+        sopln("Hello, World!2");
+        sopln("Hello, World!3");
+        sopln("Hello, World!4");
+        sopln("Hello, World!5");
     }
 }
